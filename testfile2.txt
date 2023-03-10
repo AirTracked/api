@@ -1,0 +1,2 @@
+This is a test file.
+This file should be uploaded to AWS S3.
