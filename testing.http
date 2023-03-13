@@ -1,8 +1,10 @@
-POST http://127.0.0.1/files/
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="image";
-Content-Type: text/plain
+POST http://localhost:8000/uploadfile/
 
-< ./testfile2.txt
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="testfile3.txt"
+Content-Type: multipart/form-data
+
+This is an example file.
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
